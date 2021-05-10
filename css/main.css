@@ -1014,7 +1014,7 @@ footer{
         display: flex;
     }
     nav {
-        padding: 0 25px;
+        padding: 0 50px;
     }
     .nav_menu{
         display: none;
@@ -1106,7 +1106,6 @@ footer{
     .accordion {
         display: block;
         width: 100%;
-        max-width: 360px;
         margin: 0 auto;
         background: #FFF;
         -webkit-border-radius: 4px;
@@ -1121,7 +1120,8 @@ footer{
         display: block;
         padding: 15px 15px 15px 15px;
         text-align: center;
-        color: #4D4D4D;
+        color: #fafafa;
+        background: #F53838;
         font-size: 14px;
         font-weight: 700;
         border-bottom: 1px solid #CCC;
@@ -1150,7 +1150,10 @@ footer{
         font-size: 16px;
       }
       
-      .accordion li.open .link { color: #F53838; }
+      .accordion li.open .link { 
+          color: #fafafa;
+          background: #c21b1b; 
+        }
       
       .accordion li.open i { color: #b63b4d; }
       
